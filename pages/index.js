@@ -80,10 +80,11 @@ export default function Home() {
 
         <div>
           <h3 id='subTitle' className='text-4xl underline py-2 text-center pt-10 dark:text-teal-700'>Services I Offer</h3>
-          <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
-            Since the beginning of my career, i have been working as a software engineer for a company that i am proud of. I have done remote work for 
-            <span className='text-teal-500'> agencies </span> consolted for <span className='text-teal-500'> startups </span> and collaborated with talented people to create digital products both business and consumer use.
-          </p>
+          <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300'>
+          Throughout my career, I have honed my skills in a variety of programming languages, including HTML, CSS, JavaScript
+           and Python. I have also worked extensively with frameworks such as React, Next, Angular, Node.js, and Django, and I am 
+           familiar with database management systems like MySQL, MongoDB, and PostgreSQL.
+         </p>
          
         </div>
         <div className='lg:flex gap-10'>
@@ -91,22 +92,25 @@ export default function Home() {
             <div className='flex justify-center '>
               <Image src={design} width={100} height={100}/>
             </div>
-            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'>Front-End Developer</h3>
-            <p className='py-2'>
-              Creating elegant designs suited for your needs following core design theory.
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2 dark:text-gray-300'>Front-End Developer</h3>
+            <p className='py-2 dark:text-gray-200'>
+               Some of my favourite development tools are Next and React JS mainly for the User Interface, but i also work
+               with the tools highlighted below for front end application development and design.
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
               <ul className='flex items-center justify-center '>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={js} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={css} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={html} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={react} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={js} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={css} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={html} width={100} height={100}/> </li>
               </ul>
               <ul className='flex items-center justify-center '> 
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={nextjs} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={angular} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={figma} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={react} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3 dark:bg-white rounded'> <Image src={nextjs} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={angular} width={100} height={100}/> </li>
+             </ul> 
+             <ul className='flex items-center justify-center '> 
+                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={figma} width={100} height={100}/> </li>
               </ul>
 
           </div>
@@ -115,9 +119,10 @@ export default function Home() {
             <div className='flex justify-center'>
             <Image src={code} width={100} height={100} />
             </div>
-            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'> Backend Developer </h3>
-            <p className='py-2'>
-              Creating elegant designs suited for your needs following core design theory.
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2 dark:text-gray-300'> Backend Developer </h3>
+            <p className='py-2 dark:text-gray-200'>
+              I am proficient in java and python with the major frameworks being Spring boot and Django respectively.
+              Employing the use of MYSQL for database features when developing software. Other technologies highligted below.
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
@@ -138,13 +143,12 @@ export default function Home() {
             <div className='flex justify-center'>
               <Image src={API} width={100} height={100} />
             </div>
-            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'>API Development & Intergretion</h3>
-            <p className='py-2'>
-              Creating elegant designs suited for your needs following core design theory.
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2 dark:text-gray-300'>API Development & Intergretion</h3>
+            <p className='py-2 dark:text-gray-300'>
+              I majorly use spring boot and javascript for API development and intergration, Especially when working on highly scalable applications.
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
-
-            <ul className='flex items-center justify-center '>
+            <ul className='flex items-center justify-center'>
                 <li className='flex justify-center gap-2 px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
                 <li className='flex justify-center gap-2 px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
                 <li className='flex justify-center gap-2 px-3 py-3'> <Image src={postman} width={100} height={100}/> </li>
@@ -157,10 +161,9 @@ export default function Home() {
         <section>
           <div>
             <h3 id='portfolio' className='text-5xl py-4 text-center dark:text-teal-700'>Portfolio</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
-            Since the beginning of my career, i have been working as a software engineer for a company that i am proud of. I have done remote work for 
-            <span className='text-teal-500'> agencies </span> consolted for <span className='text-teal-500'> startups </span> and collaborated with talented people to create digital products both business and consumer use.
-          </p>
+            <p className='flex justify-center text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300'>
+               Here are some projects I have worked on
+            </p>
         
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
