@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
 html,
 body {
@@ -26,6 +26,11 @@ a {
   font-family: 'Abril Fatface', cursive;
   font-weight: bold;
 }
+#portfolio{
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: bold;
+}
+
 p{
   font-family: 'Gabriela', serif;
 }

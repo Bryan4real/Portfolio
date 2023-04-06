@@ -12,13 +12,22 @@ import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
+import js from '../public/js.png';
+import css from '../public/css.png';
+import html from '../public/html.png';
+import react from '../public/react.png';
+import nextjs from '../public/nextjs.png';
+import angular from '../public/angular.png';
+import figma from '../public/figma.png';
+import java from '../public/java.png';
+import python from '../public/python.png';
+import spring from '../public/spring.png';
+import nodejs from '../public/nodejs.png';
+import django from '../public/django.png';
+import git from '../public/git.png';
+import mongodb from '../public/mongodb.png';
 import {  useState } from 'react';
-import { Roboto } from 'next/font/google';
 
-const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-})
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -70,7 +79,7 @@ export default function Home() {
        
 
         <div>
-          <h3 id='subTitle' className='text-3xl py-2 text-center dark:text-teal-700'>Services I Offer</h3>
+          <h3 id='subTitle' className='text-4xl underline py-2 text-center pt-10 dark:text-teal-700'>Services I Offer</h3>
           <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
             Since the beginning of my career, i have been working as a software engineer for a company that i am proud of. I have done remote work for 
             <span className='text-teal-500'> agencies </span> consolted for <span className='text-teal-500'> startups </span> and collaborated with talented people to create digital products both business and consumer use.
@@ -80,41 +89,56 @@ export default function Home() {
         <div className='lg:flex gap-10'>
           <div className="text-center justify-center shadow-lg p-10 rounded-xl my-10">
             <div className='flex justify-center '>
-              <Image src={design} width={100} height={100} className='dark:text-white'/>
+              <Image src={design} width={100} height={100}/>
             </div>
-            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'>Front-End Developer</h3>
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'>Front-End Developer</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design Tools</h4>
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>illustrator</p>
-            <p className='text-gray-800 py-1'>Figmma</p>
+            <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
+
+              <ul className='flex items-center justify-center '>
+                <li className='flex justify-center gap-2'> <Image src={js} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={css} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={html} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={react} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={nextjs} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={angular} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={figma} width={100} height={100}/> </li>
+              </ul>
+
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <div className='flex justify-center'>
-             <Image src={code} width={100} height={100} />
+            <Image src={code} width={100} height={100} />
             </div>
-            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'> Backend Developer </h3>
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'> Backend Developer </h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design Tools</h4>
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>illustrator</p>
-            <p className='text-gray-800 py-1'>Figmma</p>
+            <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
+
+            <ul className='flex items-center justify-center '>
+                <li className='flex justify-center gap-2'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={nodejs} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={django} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={git} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={mongodb} width={100} height={100}/> </li>
+              </ul>
+
           </div>
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <div className='flex justify-center'>
               <Image src={API} width={100} height={100} />
             </div>
-            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'>API Development & Intergretion</h3>
+            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2'>API Development & Intergretion</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design</h4>
+            <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
             <p className='text-gray-800 py-1'>Photoshop</p>
             <p className='text-gray-800 py-1'>illustrator</p>
             <p className='text-gray-800 py-1'>Figmma</p>
@@ -124,7 +148,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className='text-3xl py-2 text-center dark:text-teal-700'>Portfolio</h3>
+            <h3 id='portfolio' className='text-5xl py-4 text-center dark:text-teal-700'>Portfolio</h3>
             <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
             Since the beginning of my career, i have been working as a software engineer for a company that i am proud of. I have done remote work for 
             <span className='text-teal-500'> agencies </span> consolted for <span className='text-teal-500'> startups </span> and collaborated with talented people to create digital products both business and consumer use.
