@@ -100,14 +100,14 @@ export default function Home() {
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
               <ul className='flex items-center justify-center '>
-                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={js} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={css} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={html} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={js} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={css} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={html} width={100} height={100}/> </li>
               </ul>
               <ul className='flex items-center justify-center '> 
-                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={react} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-3 px-3 py-3 dark:bg-white rounded'> <Image src={nextjs} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-3 px-3 py-3'> <Image src={angular} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={react} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3 dark:bg-white rounded'> <Image src={nextjs} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={angular} width={100} height={100}/> </li>
              </ul> 
              <ul className='flex items-center justify-center '> 
                 <li className='flex justify-center gap-3 px-3 py-3'> <Image src={figma} width={100} height={100}/> </li>
@@ -124,17 +124,17 @@ export default function Home() {
               I am proficient in java and python with the major frameworks being Spring boot and Django respectively.
               Employing the use of MYSQL for database features when developing software. Other technologies highligted below.
             </p>
-            <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
+            <h4 className='py-2 text-teal-600'>Tools & Technology</h4>
 
             <ul className='flex items-center justify-center'>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={nodejs} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={nodejs} width={100} height={100}/> </li>
             </ul>
              <ul className='flex items-center justify-center '>  
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={django} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={git} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={mongodb} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={django} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={git} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={mongodb} width={100} height={100}/> </li>
               </ul>
 
           </div>
@@ -143,15 +143,15 @@ export default function Home() {
             <div className='flex justify-center'>
               <Image src={API} width={100} height={100} />
             </div>
-            <h3 id='subTitle' className='text-3xl font-medium pt-8 pb-2 dark:text-gray-300'>API Development & Intergretion</h3>
+            <h3 id='subTitle' className='text-3xl font-medium pt-2 pb-2 dark:text-gray-300'>API Development & Intergretion</h3>
             <p className='py-2 dark:text-gray-300'>
               I majorly use spring boot and javascript for API development and intergration, Especially when working on highly scalable applications.
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
             <ul className='flex items-center justify-center'>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={postman} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center px-3 py-3'> <Image src={postman} width={100} height={100}/> </li>
             </ul>
 
           </div>
@@ -175,7 +175,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-            </div>
+            
             <div className='basis-1/3 flex-1'>
               <Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
             </div>
@@ -184,6 +184,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
+            </div>
             </div>
           </div>
 
