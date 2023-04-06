@@ -131,7 +131,7 @@ export default function Home() {
                 <li className='flex justify-center px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
                 <li className='flex justify-center px-3 py-3'> <Image src={nodejs} width={100} height={100}/> </li>
             </ul>
-             <ul className='flex items-center justify-center '>  
+             <ul className='flex items-center justify-center'>  
                 <li className='flex justify-center px-3 py-3'> <Image src={django} width={100} height={100}/> </li>
                 <li className='flex justify-center px-3 py-3'> <Image src={git} width={100} height={100}/> </li>
                 <li className='flex justify-center px-3 py-3'> <Image src={mongodb} width={100} height={100}/> </li>
@@ -153,6 +153,9 @@ export default function Home() {
                 <li className='flex justify-center px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
                 <li className='flex justify-center px-3 py-3'> <Image src={postman} width={100} height={100}/> </li>
             </ul>
+            <ul className='flex items-center justify-center'>
+              <li></li>
+              </ul>
 
           </div>
         </div>
@@ -175,7 +178,7 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web3} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
-            
+              </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web4} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
             </div>
@@ -185,7 +188,7 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <Image src={web6} className='rounded-lg object-cover' width={"100%"} height={"100%"} layout='responsive' />
             </div>
-            </div>
+           
           </div>
 
         </section>
