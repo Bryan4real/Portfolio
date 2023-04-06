@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import {BsFillMoonStarsFill, BsFillSunFill} from 'react-icons/bs';
+import {BsFillSunFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
 import code from '../public/developer.png';
-import consulting from '../public/consulting.png';
+import API from '../public/Api.png';
 import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
@@ -13,8 +13,12 @@ import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
 import web6 from '../public/web6.png';
 import {  useState } from 'react';
+import { Roboto } from 'next/font/google';
 
-
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,8 +48,8 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10 py-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Bryan</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Engineer</h3>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Brian Mwiruki</h2>
+            <h3 id='title' className='text-2xl py-2  md:text-7xl dark:text-white' >Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
             I am a full-stack developer with extensive experience in team-based production environments emphasizing quality 
             control and who excels at communication and problem-solving. I embrace the life-long pursuit of knowledge and conquering
@@ -66,7 +70,7 @@ export default function Home() {
        
 
         <div>
-          <h3 className='text-3xl py-2 text-center dark:text-teal-700'>Services I Offer</h3>
+          <h3 id='subTitle' className='text-3xl py-2 text-center dark:text-teal-700'>Services I Offer</h3>
           <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
             Since the beginning of my career, i have been working as a software engineer for a company that i am proud of. I have done remote work for 
             <span className='text-teal-500'> agencies </span> consolted for <span className='text-teal-500'> startups </span> and collaborated with talented people to create digital products both business and consumer use.
@@ -78,7 +82,7 @@ export default function Home() {
             <div className='flex justify-center '>
               <Image src={design} width={100} height={100} className='dark:text-white'/>
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Front-End Developer</h3>
+            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'>Front-End Developer</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
@@ -92,7 +96,7 @@ export default function Home() {
             <div className='flex justify-center'>
              <Image src={code} width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'> Backend Developer </h3>
+            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'> Backend Developer </h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
@@ -104,9 +108,9 @@ export default function Home() {
 
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <div className='flex justify-center'>
-              <Image src={consulting} width={100} height={100} />
+              <Image src={API} width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>API Development & Intergretion</h3>
+            <h3 id='subTitle' className='text-lg font-medium pt-8 pb-2'>API Development & Intergretion</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
