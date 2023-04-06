@@ -21,7 +21,6 @@ import angular from '../public/angular.png';
 import figma from '../public/figma.png';
 import java from '../public/java.png';
 import python from '../public/python.png';
-import spring from '../public/spring.png';
 import nodejs from '../public/nodejs.png';
 import django from '../public/django.png';
 import git from '../public/git.png';
@@ -145,10 +144,8 @@ export default function Home() {
                 <li className='flex justify-center gap-2'> <Image src={java} width={100} height={100}/> </li>
                 <li className='flex justify-center gap-2 px-3'> <Image src={python} width={100} height={100}/> </li>
                 <li className='flex justify-center gap-2 px-3'> <Image src={postman} width={100} height={100}/> </li>
+            </ul>
 
-            <p className='text-gray-800 py-1'>Photoshop</p>
-            <p className='text-gray-800 py-1'>illustrator</p>
-            <p className='text-gray-800 py-1'>Figmma</p>
           </div>
         </div>
         </section>
