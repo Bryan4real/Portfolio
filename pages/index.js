@@ -36,7 +36,7 @@ export default function Home() {
               </li>
               <li>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md ml-8'
-                 href="#">
+                 href='resume.pdf' download='Brian resume.pdf'>
                   Resume
                  </a>
               </li>
