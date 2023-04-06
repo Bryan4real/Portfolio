@@ -98,13 +98,15 @@ export default function Home() {
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
               <ul className='flex items-center justify-center '>
-                <li className='flex justify-center gap-2'> <Image src={js} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={css} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={html} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={react} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={nextjs} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={angular} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={figma} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={js} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={css} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={html} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={react} width={100} height={100}/> </li>
+              </ul>
+              <ul className='flex items-center justify-center '> 
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={nextjs} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={angular} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={figma} width={100} height={100}/> </li>
               </ul>
 
           </div>
@@ -119,13 +121,15 @@ export default function Home() {
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
-            <ul className='flex items-center justify-center '>
-                <li className='flex justify-center gap-2'> <Image src={java} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={python} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={nodejs} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={django} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={git} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={mongodb} width={100} height={100}/> </li>
+            <ul className='flex items-center justify-center'>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={nodejs} width={100} height={100}/> </li>
+            </ul>
+             <ul className='flex items-center justify-center '>  
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={django} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={git} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={mongodb} width={100} height={100}/> </li>
               </ul>
 
           </div>
@@ -141,9 +145,9 @@ export default function Home() {
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
 
             <ul className='flex items-center justify-center '>
-                <li className='flex justify-center gap-2'> <Image src={java} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={python} width={100} height={100}/> </li>
-                <li className='flex justify-center gap-2 px-3'> <Image src={postman} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3 py-3'> <Image src={postman} width={100} height={100}/> </li>
             </ul>
 
           </div>
