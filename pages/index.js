@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {BsFillMoonStarsFill} from 'react-icons/bs';
+import {BsFillMoonStarsFill, BsFillSunFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
@@ -32,7 +32,8 @@ export default function Home() {
             <h1 className='text-xl font-burtons dark:text-white'>Bryan.Dev</h1>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
+                 <BsFillSunFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:text-teal-50' />
+         
               </li>
               <li>
                 <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md ml-8'
