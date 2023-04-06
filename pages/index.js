@@ -26,6 +26,7 @@ import nodejs from '../public/nodejs.png';
 import django from '../public/django.png';
 import git from '../public/git.png';
 import mongodb from '../public/mongodb.png';
+import postman from '../public/postman.png';
 import {  useState } from 'react';
 
 
@@ -139,6 +140,12 @@ export default function Home() {
               Creating elegant designs suited for your needs following core design theory.
             </p>
             <h4 className='py-4 text-teal-600'>Tools & Technology</h4>
+
+            <ul className='flex items-center justify-center '>
+                <li className='flex justify-center gap-2'> <Image src={java} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={python} width={100} height={100}/> </li>
+                <li className='flex justify-center gap-2 px-3'> <Image src={postman} width={100} height={100}/> </li>
+
             <p className='text-gray-800 py-1'>Photoshop</p>
             <p className='text-gray-800 py-1'>illustrator</p>
             <p className='text-gray-800 py-1'>Figmma</p>
