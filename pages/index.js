@@ -4,7 +4,7 @@ import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../public/dev-ed-wave.png';
 import design from '../public/design.png';
-import code from '../public/code.png';
+import code from '../public/developer.png';
 import consulting from '../public/consulting.png';
 import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
@@ -47,10 +47,15 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Bryan</h2>
             <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Software Engineer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
-              Software Engineer with a passion for building things. Providing services for programing and software development.
+            I am a full-stack developer with extensive experience in team-based production environments emphasizing quality 
+            control and who excels at communication and problem-solving. I embrace the life-long pursuit of knowledge and conquering
+             new challenges through a logical, data-driven approach. <br/>
+             Areas of specialization include:<br/>
+              JavaScript, Java, Python, React.js, Next.js, Spring Boot, Node.js, Express, PostgreSQL, MYSQL, MongoDB, HTML, CSS.
+
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
+          <div className='text-4xl flex justify-center gap-16 py-3 text-gray-600'>
            <a href="https://github.com/Bryan4real"><AiFillGithub /></a> 
            <a href="https://www.linkedin.com/in/brian-mwiruki-996116161/"><AiFillLinkedin /></a> 
            <a href="mailto:mwiruki@outlook.com"><AiFillMail /></a> 
@@ -70,14 +75,14 @@ export default function Home() {
         </div>
         <div className='lg:flex gap-10'>
           <div className="text-center justify-center shadow-lg p-10 rounded-xl my-10">
-            <div className='flex justify-center'>
-              <Image src={design} width={100} height={100}/>
+            <div className='flex justify-center '>
+              <Image src={design} width={100} height={100} className='dark:text-white'/>
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <h3 className='text-lg font-medium pt-8 pb-2'>Front-End Developer</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Design Tools</h4>
             <p className='text-gray-800 py-1'>Photoshop</p>
             <p className='text-gray-800 py-1'>illustrator</p>
             <p className='text-gray-800 py-1'>Figmma</p>
@@ -87,11 +92,11 @@ export default function Home() {
             <div className='flex justify-center'>
              <Image src={code} width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <h3 className='text-lg font-medium pt-8 pb-2'> Backend Developer </h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Design Tools</h4>
             <p className='text-gray-800 py-1'>Photoshop</p>
             <p className='text-gray-800 py-1'>illustrator</p>
             <p className='text-gray-800 py-1'>Figmma</p>
@@ -101,11 +106,11 @@ export default function Home() {
             <div className='flex justify-center'>
               <Image src={consulting} width={100} height={100} />
             </div>
-            <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+            <h3 className='text-lg font-medium pt-8 pb-2'>API Development & Intergretion</h3>
             <p className='py-2'>
               Creating elegant designs suited for your needs following core design theory.
             </p>
-            <h4 className='py-4 text-teal-600'>Design Tools I use</h4>
+            <h4 className='py-4 text-teal-600'>Design</h4>
             <p className='text-gray-800 py-1'>Photoshop</p>
             <p className='text-gray-800 py-1'>illustrator</p>
             <p className='text-gray-800 py-1'>Figmma</p>
