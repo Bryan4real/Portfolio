@@ -79,10 +79,10 @@ export default function Home() {
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://github.com/Bryan4real">
+            <a href="https://github.com/brianmwiruki">
               <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/brian-mwiruki-996116161/">
+            <a href="https://www.linkedin.com/in/brianmwiruki/">
               <AiFillLinkedin />
             </a>
             <a href="mailto:mwiruki@outlook.com">
