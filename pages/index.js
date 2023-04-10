@@ -52,7 +52,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md ml-8"
-                  href="resume.pdf"
+                  href="Brian Mwiruki Resume.pdf"
                   download="Brian resume.pdf"
                 >
                   Resume
